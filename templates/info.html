@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solciitud de información</title>
+</head>
+<body>
+    <h1>Consulta el estado de componentes e historial de activación</h1>
+    <form method="POST">
+        <label for="pelicula">Solicitud:</label>
+        <input type="text" id="solicitud" name="solicitud" required>
+        <button type="submit">Consultar</button>
+    </form>
+    {% if resultado_solicitud %}
+        <h2>Respuesta: {{ resultado_solicitud }}</h2>
+    {% endif %}
+</body>
+</html>

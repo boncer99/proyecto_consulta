@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Género de Película</title>
+</head>
+<body>
+    <h1>Consulta el género de una película</h1>
+    <form method="POST">
+        <label for="pelicula">Nombre de la película:</label>
+        <input type="text" id="pelicula" name="pelicula" required>
+        <button type="submit">Consultar</button>
+    </form>
+    {% if resultado %}
+        <h2>Género: {{ resultado }}</h2>
+    {% endif %}
+</body>
+</html>
