@@ -13,8 +13,9 @@ El sistema permite a los usuarios interactuar mediante lenguaje natural para rea
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e67128a2-0065-4e84-aea2-357f9fbc8acc" width="600"/>
+  <img src="https://github.com/user-attachments/assets/242ca880-cbb2-468f-bae1-f929c2a9fc5d" width="600"/>
 </p>
+
 
 ## **2	Descripción de herramientas y funciones.**
 ### **3.1	get_schema(question: str) -> str**
@@ -110,3 +111,9 @@ El agente sigue el modelo ReAct (Razonamiento + Acción), por lo que decide qué
 Una vez importadas las llaves de acceso y creación de herramientas se construye el agente para ejecutarlo con preguntas del usuario; el agente elige automáticamente qué herramientas usar según el contexto y devuelve una respuesta precisa.  
 La pregunta del usuario, escrita en lenguaje natural, se encapsula en un `HumanMessage` y se envía al agente junto con un identificador de hilo (`thread_id`) que permite rastrear la conversación.  
 El agente analiza la pregunta, selecciona las herramientas necesarias. Finalmente, la respuesta generada por el agente se imprime usando `pretty_print()`.
+
+**Video demostrativo**
+https://youtu.be/XN04gh8rdMQ
+
+**Enlace a aplicacion**
+https://proyecto-consulta-lake.vercel.app/info
