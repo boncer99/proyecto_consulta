@@ -9,3 +9,4 @@ langgraph
 openai
 python-dotenv
 pydantic
+psycopg2-binary
